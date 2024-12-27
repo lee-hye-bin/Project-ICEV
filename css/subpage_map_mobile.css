@@ -1,0 +1,419 @@
+/* Import Local Scss Files */ /* Font Icon : Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Font */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font Family */
+/* Color */
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: "pretendard", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font Family */
+/* Color */
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Responsive for Tablet */
+@media screen and (max-width: 460px) {
+  /************************************* Footer Slide Banner *************************************/
+  .footer_slide_banner .inner {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 428px) {
+  .top_btn {
+    right: 3.5%;
+  }
+  .top_btn .top_btn_inside {
+    width: 60px;
+    height: 60px;
+  }
+  .top_btn .top_btn_inside:hover::after {
+    width: 75px;
+    height: 75px;
+  }
+  .top_btn .top_btn_inside img {
+    width: 25%;
+  }
+  .top_btn .top_btn_inside .top {
+    font-size: 21px;
+    bottom: 8%;
+  }
+}
+@media screen and (max-width: 410px) {
+  /*********** Footer *************/
+  footer .footer_info {
+    font-size: 12px;
+  }
+  footer .footer_adress {
+    font-size: 10px;
+  }
+  footer .footer_copy {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .subpage_main_visual {
+    width: 100%;
+    height: 230px;
+  }
+  .subpage_main_visual .group1 {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    content: url(/subPage/map/images/subpage_visual_group1_mobile.svg);
+    left: 0%;
+    bottom: 0%;
+  }
+  .subpage_main_visual .group2 {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    content: url(/subPage/map/images/subpage_visual_group2_mobile.svg);
+    bottom: -4%;
+    right: 0%;
+  }
+  .subpage_main_visual .main_title {
+    top: 37.4%;
+    left: 50%;
+  }
+  .subpage_main_visual .main_title .title h1 {
+    font-size: 32px;
+  }
+  .subpage_main_visual .main_title .address {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .subpage_main_visual .main_title .address span:nth-child(2) .bi, .subpage_main_visual .main_title .address span:nth-child(4) .bi {
+    font-size: 10px;
+  }
+  .subpage_main_visual .main_title .address select {
+    font-size: 10px;
+  }
+  .subpage_main_contents .inner {
+    width: 90%;
+  }
+  .subpage_main_contents .inner .tap_wrap {
+    height: 60px;
+    top: -30px;
+    border-radius: 40px 40px 0 0;
+  }
+  .subpage_main_contents .inner .tap_wrap .tap_menu {
+    height: 64px;
+  }
+  .subpage_main_contents .inner .tap_wrap .tap_menu h1 {
+    font-size: 18px;
+  }
+  .subpage_main_contents .inner .map_api {
+    width: 85%;
+    height: 215px;
+  }
+  .subpage_main_contents .inner .location_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 14.249%;
+    margin-bottom: 28.493%;
+    gap: 0;
+  }
+  .subpage_main_contents .inner .location_info .info .info_title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subpage_main_contents .inner .location_info .info .info_title h4 {
+    font-size: 18px;
+  }
+  .subpage_main_contents .inner .location_info .info span {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .subpage_main_contents .inner .location_info .info.call {
+    margin-top: 7.123%;
+  }
+  .subpage_main_contents .inner .location_info .info.call span:nth-child(2) {
+    padding: 4px 12px;
+  }
+  .subpage_main_contents .inner .car, .subpage_main_contents .inner .subway_bus {
+    width: 95.158%;
+    border-width: 2px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  .subpage_main_contents .inner .car .transport_title_wrap {
+    width: 70%;
+    top: -2.5%;
+  }
+  .subpage_main_contents .inner .car .transport_title_wrap .transport_title {
+    padding: 7px 20px;
+    font-size: 20px;
+  }
+  .subpage_main_contents .inner .car .transport_content {
+    padding: 22.123% 9.61%;
+  }
+  .transport_icon {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .bar {
+    width: 50px;
+    height: 2px;
+    margin-top: 0.5%;
+    margin-bottom: 16.76%;
+  }
+  .subpage_main_contents .inner .car .transport_content .root {
+    margin-bottom: 16.76%;
+  }
+  .subpage_main_contents .inner .car .transport_content .root h4 {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 2.36%;
+  }
+  .subpage_main_contents .inner .car .transport_content .root h4::before {
+    content: "";
+    left: 0;
+  }
+  .subpage_main_contents .inner .car .transport_content .root p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  .subpage_main_contents .inner .car .transport_content .root p.pc_tablet {
+    display: none;
+  }
+  .subpage_main_contents .inner .car .transport_content .root p.mobile {
+    display: block;
+  }
+  .subpage_main_contents .inner .car .car_deco {
+    display: none;
+  }
+  .subpage_main_contents .inner .subway_bus .transport_title_menu {
+    -webkit-transform: translateY(-16px);
+            transform: translateY(-16px);
+  }
+  .subpage_main_contents .inner .subway_bus .transport_title_menu li {
+    padding: 7px 0;
+  }
+  .subpage_main_contents .inner .subway_bus .transport_title_menu li .transport_title {
+    padding: 7px 15px;
+    font-size: 18px;
+  }
+  .subpage_main_contents .inner .subway_bus .transport_content {
+    padding-top: 5%;
+  }
+  .root_wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .root_wrap .root1 h4 {
+    font-size: 16px;
+  }
+  b {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .root_wrap .root1 h4:nth-child(2) ::before {
+    height: 25px;
+    left: 50%;
+  }
+  .root_wrap .root1 p {
+    margin: 8.58% 0;
+    font-size: 14px;
+  }
+  .bus_root {
+    margin-left: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bus_num {
+    display: inline-block;
+    padding: 0;
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .root_wrap .bar {
+    width: 95%;
+  }
+  .root_wrap .root2 h4 {
+    font-size: 16px;
+  }
+  .root_wrap .root2 h4 b {
+    font-size: 14px;
+  }
+  .root_wrap .root2 p {
+    margin: 8.58% 0;
+    font-size: 14px;
+  }
+  .subpage_main_contents .inner .subway_bus .transport_content .bus .root_wrap > div {
+    width: 100%;
+  }
+  .subpage_main_contents .inner .subway_bus .transport_content .bus .root_wrap > div h4 {
+    font-size: 16px;
+  }
+  .subpage_main_contents .inner .subway_bus .transport_content .bus .root_wrap > div h4::before {
+    content: "";
+  }
+  .subpage_main_contents .inner .subway_bus .transport_content .bus .root_wrap > div p {
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 0;
+    margin-bottom: 2.22%;
+  }
+  .top_btn {
+    right: 3.5%;
+  }
+  .top_btn .top_btn_inside {
+    width: 60px;
+    height: 60px;
+  }
+  .top_btn .top_btn_inside:hover::after {
+    width: 75px;
+    height: 75px;
+  }
+  .top_btn .top_btn_inside img {
+    width: 25%;
+  }
+  .top_btn .top_btn_inside .top {
+    font-size: 21px;
+    bottom: 8%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .footer_slide_banner .inner .wrap {
+    /* border: 1px solid green; */
+    width: 137px;
+  }
+}

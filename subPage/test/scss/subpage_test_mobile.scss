@@ -1,0 +1,327 @@
+/* Import Local Scss Files */
+@import 'subpage_test_reset', 'subpage_test_variables', 'subpage_test_font';
+
+/* Responsive for Tablet */
+@media screen and (max-width: 460px) {
+  /************************************* Footer Slide Banner *************************************/
+  .footer_slide_banner{
+    .inner{
+      width: 95%;
+    }
+  }
+}
+
+@media screen and (max-width: 428px){
+  // top btn
+  .top_btn{
+    right: 3.5%;
+    .top_btn_inside{
+      width: 60px;
+      height: 60px;
+      &:hover::after{
+        width: 75px;
+        height: 75px;
+      }
+      img{width: 25%;}
+      .top{
+        font-size: 21px;
+        bottom: 8%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  // subpage main contents
+  .subpage_main_contents{
+      .inner{
+        .contents_title{
+          h1{}
+        }
+        .contents_desc{
+          p{}
+        }
+        .contents_test{
+          .test_desc{
+            .test_guide{            
+              .guide{
+                &:nth-child(1){
+                  span{
+                    &:nth-child(1){
+                      img{}
+                    }
+                    &:nth-child(2){}
+                  }
+                }
+                &:nth-child(3){
+                  span{
+                    &:nth-child(1){
+                      img{}
+                    }
+                    &:nth-child(2){}
+                  }
+                }
+                &:nth-child(5){
+                  span{
+                    &:nth-child(1){
+                      img{}
+                    }
+                    &:nth-child(2){}
+                  }
+                }
+                span{
+                  &:nth-child(1){
+                    img{}
+                  }
+                  &:nth-child(2){}
+                  img{
+                    
+                  }
+                }
+              }
+              .guide_img{
+                img{}
+              }
+            }
+            .test_grade{
+              p{}
+              ul{
+                li{
+                  &:nth-child(2){}
+                }
+              }
+            }
+          }
+          .user_info{
+            h1{}
+            .user{
+              .user_input{
+                label{}
+                input{}
+                &:nth-child(1){
+                  input{
+                    &::placeholder{}
+                  }
+                }
+                &:nth-child(2){
+                  select{
+                    option{}
+                  }
+                }
+                &:nth-child(3){
+                  input{
+                    &::placeholder{}
+                  }
+                }
+              }
+    
+            }
+            .test_btn{
+              &:hover{}
+            }
+          }
+        }
+        /* Subpage_Test_Container 시험문제 */
+        .test_wrap{
+          .test_container{
+            .question{
+              /* 1,2,3,4 선택지가 그림인 문제 */
+              &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4){
+                .answers{
+                  .image_wrapper{}
+                }
+              }
+              /* 20번 문제(테이블) */
+              &:nth-child(20){
+                .text{
+                  p{
+                    table{
+                      thead{
+                        tr{
+                          th{}
+                        }
+                      }
+                      tbody{
+                        tr{
+                          td{
+                            font-size: 14px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+  
+              //5번 문제 이미지
+              .question_image{}
+              p{}
+              .text{
+                font-size: 16px;
+                margin: 25px auto;
+                p{}
+              }
+              .question_text{
+                p{}
+              }
+              .answers{
+                .image_wrapper{
+                  &::before{}
+                  .answer_img{}
+                }
+                .answer_text{
+                  &::before{}
+                }
+              }
+            }
+    
+          }
+          .pagination{}
+        }
+        .pagination{
+          .pagination_wrap{
+            button{}
+            .test_prev_btn{
+              .bi{}
+            }
+            .pagination_number{
+              li{
+                a{
+                  &.active{}
+                }
+              }
+            }
+            .test_next_btn, .test_prev_btn{
+              .bi{}
+            }
+          }
+        }
+        .result_wrap{
+          .test_result_btn{
+            &:hover{}
+          }
+        }
+        .test_result_container{
+  
+          img{}
+          .result_bg_deco01{}
+          .result_bg_deco02{}
+          .result_bg_deco03{}
+          .deco01{}
+          .deco02{}
+          .input_data{
+            p{}
+          }
+          .total_score{}
+          .hello_text{}
+          .grade_wrap{
+            .grade{
+              span{}
+            }
+          }
+          .result_close_btn{
+            &:hover{
+              img{}
+            }
+            img{}
+          }
+        }
+      }
+      .test_file, .test_pencil{}
+      .test_file{}
+      .test_pencil{
+        display: none;
+      }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  /*********** Footer *************/
+  footer{
+    .footer_info{
+      font-size: 12px;
+    }
+    .footer_adress{
+      font-size: 10px;
+      .first{}
+      .second{}
+      .third{}
+    }
+    .footer_copy{
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width : 390px){
+  // subpage main visual
+  .subpage_main_visual{
+    width: 100%;
+    height: 230px;
+    .group1{
+      transform: scale(1);
+      content: url(/subPage/map/images/subpage_visual_group1_mobile.svg);
+      left: 0%;
+      bottom: 0%;
+    }
+    .group2{
+      transform: scale(1);
+      content: url(/subPage/map/images/subpage_visual_group2_mobile.svg);
+      bottom: -4%;
+      right: 0%;
+    }
+    .main_title{
+      top: 37.4%;
+      left: 50%;
+      .title{
+        h1{
+          font-size: 32px;
+        }
+      }
+      .address{
+        font-size: 12px;
+        padding-top: 10px;
+        span{
+          &:nth-child(2), &:nth-child(4){
+            .bi{
+              font-size: 10px;
+            }
+          }
+        }
+        select{
+          font-size: 10px;
+          option{}
+        }
+      }
+    }
+  }
+
+  .subpage_main_contents{
+    .inner{
+      .contents_title{
+        height: 60px;
+        top: -30px;
+        border-radius: 40px 40px 0 0;
+      }
+      .contents_desc{
+        p{
+          margin: 50px auto;
+        }
+      }
+      .contents_test{
+        margin: 80px auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer_slide_banner{
+    .inner{
+      .wrap{
+        /* border: 1px solid green; */
+        width: 137px;
+      }
+    }
+  }
+}

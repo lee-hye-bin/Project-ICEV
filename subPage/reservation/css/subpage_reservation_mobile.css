@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* Import Local Scss Files */
+/* Font Icon : Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Font */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font Family */
+/* Color */
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: "pretendard", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font Family */
+/* Color */
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (max-width: 390px) {
+  .subpage_main_visual {
+    width: 100%;
+    height: 34.693vh;
+    height: 230px;
+  }
+  .subpage_main_visual .group1 {
+    content: url(/subPage/map/images/subpage_visual_group1_mobile.svg);
+    left: 0%;
+    bottom: 0%;
+  }
+  .subpage_main_visual .group2 {
+    content: url(/subPage/map/images/subpage_visual_group2_mobile.svg);
+    bottom: -4%;
+    right: 0%;
+  }
+  .subpage_main_visual .main_title {
+    top: 37.4%;
+    left: 50%;
+  }
+  .subpage_main_visual .main_title .title h1 {
+    font-size: 30px;
+  }
+  .subpage_main_visual .main_title .address {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+  .subpage_main_visual .main_title .address span:nth-child(2) .bi, .subpage_main_visual .main_title .address span:nth-child(4) .bi {
+    font-size: 10px;
+  }
+  .subpage_main_visual .main_title .address select {
+    font-size: 10px;
+  }
+  .subpage_main_contents .inner {
+    width: 90%;
+    /* 1214 수정시작 */
+    /* 1214 수정끝 */
+    /* 1215 수정시작 */
+    /* 1215 수정끝 */
+  }
+  .subpage_main_contents .inner .tap_wrap {
+    height: 60px;
+    top: -30px;
+    border-radius: 40px 40px 0 0;
+  }
+  .subpage_main_contents .inner .tap_wrap .tap_menu {
+    height: 64px;
+  }
+  .subpage_main_contents .inner .tap_wrap .tap_menu h1 {
+    font-size: 18px;
+  }
+  .subpage_main_contents .inner .reservation_desc {
+    font-size: 14px;
+    width: 85%;
+  }
+  .subpage_main_contents .inner .reservation_desc p {
+    margin-top: 0px;
+  }
+  .subpage_main_contents .inner .reservation_deco1 {
+    width: 35%;
+    margin: 11.4% auto;
+  }
+  .subpage_main_contents .inner .reservation_program {
+    gap: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 33.05%;
+  }
+  .subpage_main_contents .inner .reservation_program img {
+    width: 58.275%;
+  }
+  .subpage_main_contents .inner .reservation_program .program_info .info_head {
+    font-size: 18px;
+    text-align: center;
+  }
+  .subpage_main_contents .inner .reservation_program .program_info .info_head .title {
+    display: block;
+    margin-top: 4.86%;
+  }
+  .subpage_main_contents .inner .reservation_program .program_info .info_desc {
+    text-align: center;
+  }
+  .subpage_main_contents .inner .reservation_program .program_info .info_desc p {
+    font-size: 14px;
+  }
+  .subpage_main_contents .inner .reservation_program .program_info .info_desc em {
+    font-size: 12.5px;
+  }
+  .subpage_main_contents .inner .reservation_program .program_info .book_btn {
+    right: 50%;
+    bottom: -45px;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .subpage_main_contents .inner .reservation_program.item2 .program_info .info_desc em, .subpage_main_contents .inner .reservation_program.item4 .program_info .info_desc em, .subpage_main_contents .inner .reservation_program.item5 .program_info .info_desc em {
+    visibility: hidden;
+    display: none;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar-header button i {
+    font-size: 16px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar-header h2 {
+    font-size: 20px;
+    margin: 5.7% 3.282%;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap {
+    gap: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead tr th {
+    padding: 12px 17px;
+    font-size: 14px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead tr th:first-child {
+    padding-left: 30px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead tr th:last-child {
+    padding-right: 30px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td {
+    height: 40px;
+    font-size: 14px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info {
+    gap: 15px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info > div {
+    font-size: 13px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation {
+    width: 100%;
+    height: 400px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation h2 {
+    padding: 12px 17px;
+    font-size: 14px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation > div p, .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation > div input {
+    font-size: 13px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form {
+    font-size: 14px;
+  }
+  .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form button {
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+  }
+  .subpage_main_contents .inner .prev_page_btn {
+    width: 48%;
+    margin-top: 5%;
+    font-size: 13px;
+  }
+  .subpage_main_contents .reservation_message {
+    width: 82%;
+    height: 16%;
+    padding: 15px;
+    bottom: 20%;
+  }
+  .subpage_main_contents .reservation_message .resercation_result {
+    margin-top: 5%;
+  }
+  .subpage_main_contents .reservation_message .resercation_result ul li {
+    font-size: 16px;
+  }
+  .subpage_main_contents .reservation_message a {
+    font-size: 13px;
+  }
+}

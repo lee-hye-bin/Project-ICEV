@@ -1,0 +1,25 @@
+@import 'subpage_introduce_variables', 'subpage_introduce_font';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: $main_kr;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+button{
+  cursor: pointer;
+}
+input{
+  border: none;
+}
+li{
+  list-style: none;
+}

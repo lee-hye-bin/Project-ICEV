@@ -1,0 +1,260 @@
+/* Import Local Scss Files */
+@import 'subpage_reservation_reset', 'subpage_reservation_variables', 'subpage_reservation_font';
+
+@media screen and (max-width: 460px) {
+  /************************************* Footer Slide Banner *************************************/
+    .footer_slide_banner{
+      .inner{
+        width: 95%;
+      }
+    }
+}
+
+@media screen and (max-width: 428px){
+  // top btn
+  .top_btn{
+    right: 3.5%;
+    .top_btn_inside{
+      width: 60px;
+      height: 60px;
+      &:hover::after{
+        width: 75px;
+        height: 75px;
+      }
+      img{width: 25%;}
+      .top{
+        font-size: 21px;
+        bottom: 8%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  /*********** Footer *************/
+  footer{
+    .footer_info{
+      font-size: 12px;
+    }
+    .footer_adress{
+      font-size: 10px;
+      .first{}
+      .second{}
+      .third{}
+    }
+    .footer_copy{
+      font-size: 10px;
+    }
+  }
+}
+
+// ~420 , ~270
+@media screen and (max-width: 390px){
+  .side_menu{
+    display: none;
+  }
+  // subpage main visual
+  .subpage_main_visual{
+    width: 100%;
+    height: 34.693vh;
+    height: 230px;
+    .group1{
+      transform: scale(1);
+      content: url(/subPage/map/images/subpage_visual_group1_mobile.svg);
+      left: 0%;
+      bottom: 0%;
+    }
+    .group2{
+      transform: scale(1);
+      content: url(/subPage/map/images/subpage_visual_group2_mobile.svg);
+      bottom: -4%;
+      right: 0%;
+    }
+    .main_title{
+      top: 37.4%;
+      left: 50%;
+      .title{
+        h1{font-size: 30px;}
+      }
+      .address{
+        font-size: 12px;
+        padding-top: 10px;
+        span{
+          &:nth-child(2), &:nth-child(4){
+            .bi{
+              font-size: 10px;
+            }
+          }
+        }
+        select{
+          font-size: 10px;
+          option{}
+        }
+      }
+    }
+  }
+  // Subpage_Main_Contents 
+  .subpage_main_contents{
+    .inner{
+      width: 90%;
+      .tap_wrap{
+        height: 60px;
+        top: -30px;
+        border-radius: 40px 40px 0 0;
+        .tap_menu{
+          height: 64px;
+          h1{font-size: 18px;}
+        }
+      }
+      /* 1214 수정시작 */
+      // subpage_reservation
+      .reservation_desc{
+        font-size: 14px;
+        width: 85%;
+        p{margin-top: 0px;}
+      }
+      // subpage_reservation decoration
+      .reservation_deco1{
+        width: 35%;
+        margin: 11.4% auto;
+      }
+      // reservation program item
+      .reservation_program{
+        gap: 32px;
+        flex-direction: column;
+        margin-bottom: 33.05%;
+        img{width: 58.275%;}
+        .program_info{
+          .info_head{
+            font-size: 18px;
+            text-align: center;
+            .status{}
+            .title{
+              display: block;
+              margin-top: 4.86%;
+            }
+          }
+          .info_desc{
+            text-align: center;
+            p{font-size: 14px;}
+            em{font-size: 12.5px;}
+          }
+          .book_btn{
+            right: 50%;
+            bottom: -45px;
+            transform: translateX(50%);
+          }
+        }
+        &.item2,
+        &.item4,
+        &.item5{
+          .program_info{
+            .info_desc{
+              em{
+                visibility: hidden; 
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      /* 1214 수정끝 */
+      /* 1215 수정시작 */
+      // calendar_reservation_container
+      .calendar_reservation_container{
+        .calendar-header{
+          button{
+            i{font-size: 16px;}
+          }
+          h2{
+            font-size: 20px;
+            margin: 5.7% 3.282%;
+          }
+        }
+        .calendar_reservation_wrap{
+          gap: 50px;
+          flex-direction: column;
+          .calendar{
+            table{
+              thead{
+                tr{
+                  th{
+                    padding: 12px 17px;
+                    font-size: 14px;
+                    &:first-child{padding-left: 30px;}
+                    &:last-child{padding-right: 30px;}
+                  }
+                }
+              }
+              tbody{
+                tr{
+                  td{
+                    height: 40px;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .calendar_info{
+              gap: 15px;
+              >div{font-size: 13px;}
+            }
+          }
+          .reservation{
+            width: 100%;
+            height: 400px;
+            h2{
+              padding: 12px 17px;
+              font-size: 14px;
+            }
+            >div{
+              p, input{
+                font-size: 13px;
+              }
+            }
+            .form{
+              font-size: 14px;
+              button{
+                width: 130px;
+                height: 30px;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      // prev_page_btn
+      .prev_page_btn{
+        width: 48%;
+        margin-top: 5%;
+        font-size: 13px;
+      }
+      /* 1215 수정끝 */
+    }
+    // reservation_massage
+    .reservation_message{
+      width: 82%;
+      height: 16%;
+      padding: 15px;
+      bottom: 20%;
+      .resercation_result{
+        margin-top: 5%;
+        ul{
+          li{font-size: 16px;}
+        }
+      }
+      a{font-size: 13px;}
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer_slide_banner{
+    .inner{
+      .wrap{
+        /* border: 1px solid green; */
+        width: 137px;
+      }
+    }
+  }
+}

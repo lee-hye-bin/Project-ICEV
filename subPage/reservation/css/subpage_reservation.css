@@ -1,0 +1,1202 @@
+@charset "UTF-8";
+/* Import Local Scss Files */
+/* Font Icon : Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Font */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff");
+@import url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff");
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font Family */
+/* Color */
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: "pretendard", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/* Font Family */
+/* Color */
+/* Font Icon : Bootstrap Icons */
+/* Font */
+@font-face {
+  font-family: "pretendard";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Luckiest Guy";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Binggrae";
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CookieRun-Regular";
+  font-weight: normal;
+  font-style: normal;
+}
+/************************************* Header *************************************/
+.header {
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100px;
+  padding: 0 100px;
+  position: absolute;
+  background-color: #fff;
+  /* 검색창 */
+}
+.header .header_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 62px;
+}
+.header .header_logo > a {
+  display: block;
+}
+.header .header_logo > a img {
+  width: 100%;
+}
+.header .header_nav {
+  /* display: none; */
+  height: inherit;
+}
+.header .header_nav .nav_lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+  text-align: center;
+}
+.header .header_nav .nav_lists .nav_list {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  /* &:hover{
+    .dropdown{
+      display: block;
+    }
+  } */
+}
+.header .header_nav .nav_lists .nav_list:nth-child(odd) .dropdown::before {
+  border-color: #EF4C41;
+  background-color: #EF4C41;
+}
+.header .header_nav .nav_lists .nav_list:nth-child(odd) .dropdown .inner .image {
+  background-color: #EF4C41;
+}
+.header .header_nav .nav_lists .nav_list:nth-child(odd) .dropdown .inner .submenu ul li:hover {
+  background-color: #FEEEEC;
+  color: #EF4C41;
+}
+.header .header_nav .nav_lists .nav_list:nth-child(3) .dropdown .inner .submenu ul li:nth-child(3), .header .header_nav .nav_lists .nav_list:nth-child(4) .dropdown .inner .submenu ul li:nth-child(3), .header .header_nav .nav_lists .nav_list:nth-child(6) .dropdown .inner .submenu ul li:nth-child(3) {
+  visibility: hidden;
+}
+.header .header_nav .nav_lists .nav_list > a {
+  font-family: "pretendard", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #343434;
+  text-decoration: none;
+  display: block;
+  padding: 30px 15px;
+}
+.header .header_nav .nav_lists .nav_list .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100vw;
+  background: white;
+  overflow: hidden;
+  max-height: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  z-index: 10;
+}
+.header .header_nav .nav_lists .nav_list .dropdown::before {
+  content: "";
+  display: block;
+  border: 1px solid #3DB149;
+  background-color: #3DB149;
+  width: 100vw;
+  height: 2px;
+}
+.header .header_nav .nav_lists .nav_list .dropdown.avtive {
+  max-height: 500px; /* 서브메뉴 열림 시 최대 높이 설정 */
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner {
+  width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .image {
+  background-color: #3DB149;
+  position: relative;
+  width: 410px;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .image span {
+  font-size: 32px;
+  font-weight: bold;
+  color: #fff;
+  font-family: "Binggrae", sans-serif;
+  display: block;
+  position: absolute;
+  right: 32px;
+  top: 32px;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .image img {
+  width: 100%;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .submenu {
+  width: 870px;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 98px;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .submenu ul {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 20px;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .submenu ul li {
+  width: 190px;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .submenu ul li:hover {
+  background-color: #ECF8ED;
+  color: #3DB149;
+}
+.header .header_nav .nav_lists .nav_list .dropdown .inner .submenu ul li a {
+  width: 70%;
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px 0;
+  font-family: "pretendard", sans-serif;
+  text-align: left;
+}
+.header .header_icon {
+  width: 195px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header .header_icon .header_icon_white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100px;
+}
+.header .header_icon .header_icon_white li button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header_icon .header_icon_white li button > img {
+  width: 100%;
+}
+.header .header_icon .header_icon_white li a {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header_icon .header_icon_white li a > img {
+  width: 100%;
+}
+.header .header_icon .header_icon_white li .close_btn {
+  display: none;
+}
+.header .header_icon .header_icon_white li .close_btn > img {
+  width: 100%;
+}
+.header .header_search {
+  width: 30%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+.header .header_search input {
+  border-radius: 20px;
+  width: 90%;
+  border: 2px solid #EF4C41;
+  padding: 10px 0;
+  text-indent: 20px;
+  font-size: 16px;
+}
+.header .header_search input::-webkit-input-placeholder {
+  color: #989898;
+}
+.header .header_search input::-moz-placeholder {
+  color: #989898;
+}
+.header .header_search input:-ms-input-placeholder {
+  color: #989898;
+}
+.header .header_search input::-ms-input-placeholder {
+  color: #989898;
+}
+.header .header_search input::placeholder {
+  color: #989898;
+}
+.header .header_search .header_search_btn {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  right: 13%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+.header .header_search .header_search_btn > img {
+  width: 100%;
+}
+
+.responsive_header {
+  display: none;
+}
+
+/************************************* Side_Menu *************************************/
+.side_menu {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateX(160px);
+          transform: translateX(160px);
+}
+.side_menu.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.side_menu .side_menu_content {
+  width: 160px;
+  height: 100vh;
+  background-color: #EF4C41;
+  border-radius: 60px 0 0 60px;
+  position: relative;
+  padding-top: 75px;
+}
+.side_menu .side_menu_content > img {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -85%;
+  z-index: -5;
+}
+.side_menu .side_menu_content > img:hover {
+  -webkit-animation-name: submenu;
+          animation-name: submenu;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes submenu {
+  0% {
+    -webkit-transform: translateY(-50%) translateX(0);
+            transform: translateY(-50%) translateX(0);
+  }
+  50% {
+    -webkit-transform: translateY(-50%) translateX(-4%) rotate(-8deg);
+            transform: translateY(-50%) translateX(-4%) rotate(-8deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) translateX(0);
+            transform: translateY(-50%) translateX(0);
+  }
+}
+@keyframes submenu {
+  0% {
+    -webkit-transform: translateY(-50%) translateX(0);
+            transform: translateY(-50%) translateX(0);
+  }
+  50% {
+    -webkit-transform: translateY(-50%) translateX(-4%) rotate(-8deg);
+            transform: translateY(-50%) translateX(-4%) rotate(-8deg);
+  }
+  100% {
+    -webkit-transform: translateY(-50%) translateX(0);
+            transform: translateY(-50%) translateX(0);
+  }
+}
+.side_menu .side_menu_content .side_menu_list li {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 130px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.side_menu .side_menu_content .side_menu_list li a {
+  background-color: #fff;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 5px;
+  border-radius: 15px;
+}
+.side_menu .side_menu_content .side_menu_list li a:hover span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.side_menu .side_menu_content .side_menu_list li a img {
+  width: 39px;
+  height: 39px;
+}
+.side_menu .side_menu_content .side_menu_list li a span {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #343434;
+  font-family: "Binggrae", sans-serif;
+}
+
+/*********************** Subpage_Main_Visual ****************************/
+.subpage_main_visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 500px;
+  background-color: #FCF7EC;
+  position: relative;
+  overflow: hidden;
+}
+.subpage_main_visual img {
+  position: absolute;
+}
+.subpage_main_visual .group1 {
+  left: -8%;
+}
+.subpage_main_visual .group2 {
+  right: -5%;
+}
+.subpage_main_visual .main_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.subpage_main_visual .main_title .title h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Binggrae", sans-serif;
+  color: #F5948D;
+}
+.subpage_main_visual .main_title .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+  font-size: 24px;
+  color: #F5948D;
+}
+.subpage_main_visual .main_title .address span:nth-child(2) .bi, .subpage_main_visual .main_title .address span:nth-child(4) .bi {
+  font-size: 20px;
+  padding: 0 5px;
+}
+.subpage_main_visual .main_title .address select {
+  border-color: #F5948D;
+  border-radius: 5px;
+  padding: 2px;
+  font-size: 18px;
+  color: #F5948D;
+}
+/*********************** Subpage_Main_Contents ****************************/
+.subpage_main_contents {
+  width: 100vw;
+  color: #343434;
+  margin-bottom: 9.985%;
+  position: relative;
+}
+.subpage_main_contents .inner {
+  margin: 0 auto;
+  width: 1280px;
+}
+.subpage_main_contents .inner > div {
+  margin: auto;
+}
+.subpage_main_contents .inner .tap_wrap {
+  position: relative;
+  top: -60px;
+  border: 6px solid #F5948D;
+  border-radius: 80px 80px 0 0;
+  width: 1280px;
+  background-color: #fff;
+  border-bottom: none;
+}
+.subpage_main_contents .inner .tap_wrap .tap_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+}
+.subpage_main_contents .inner .tap_wrap .tap_menu h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Binggrae", sans-serif;
+  font-weight: bold;
+}
+.subpage_main_contents .inner .reservation_desc {
+  text-align: center;
+  font-size: 20px;
+}
+.subpage_main_contents .inner .reservation_desc p {
+  margin-top: -10px;
+}
+.subpage_main_contents .inner .reservation_desc p em {
+  font-style: normal;
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .reservation_deco1 {
+  display: block;
+  margin: 6.954% auto;
+}
+.subpage_main_contents .inner .reservation_program {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 42px;
+  margin-bottom: 7.579%;
+  padding: 0 13.15%;
+}
+.subpage_main_contents .inner .reservation_program .program_info {
+  width: 100%;
+  position: relative;
+}
+.subpage_main_contents .inner .reservation_program .program_info .info_head {
+  font-size: 24px;
+}
+.subpage_main_contents .inner .reservation_program .program_info .info_head .status {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 7px 20px;
+  background-color: #F5F5F5;
+  font-weight: 600;
+  color: #989898;
+  border-radius: 10px;
+}
+.subpage_main_contents .inner .reservation_program .program_info .info_head .status.ready {
+  background-color: #FEEEEC;
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .reservation_program .program_info .info_head .title {
+  font-weight: 600;
+}
+.subpage_main_contents .inner .reservation_program .program_info .info_desc p {
+  margin: 24px 0;
+  font-size: 20px;
+}
+.subpage_main_contents .inner .reservation_program .program_info .info_desc em {
+  font-size: 18px;
+  font-style: normal;
+}
+.subpage_main_contents .inner .reservation_program .program_info .book_btn {
+  display: block;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  background-color: #ECF8ED;
+  border-radius: 20px;
+  color: #3DB149;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+.subpage_main_contents .inner .reservation_program .program_info .book_btn:hover {
+  text-decoration: underline;
+}
+.subpage_main_contents .inner .reservation_program.item2 .program_info .info_desc em, .subpage_main_contents .inner .reservation_program.item4 .program_info .info_desc em, .subpage_main_contents .inner .reservation_program.item5 .program_info .info_desc em {
+  visibility: hidden;
+}
+.subpage_main_contents .inner .calendar_reservation_container {
+  width: 100%;
+  border-top: 2px solid #EF4C41;
+  border-bottom: 2px solid #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar-header button {
+  border: none;
+  background: transparent;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar-header button i {
+  font-size: 24px;
+  font-weight: 900;
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar-header h2 {
+  font-size: 32px;
+  margin: 3.282%;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  margin-bottom: 3.907%;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar {
+  border-top: 1px solid #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table {
+  border-collapse: collapse;
+  text-align: center;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead {
+  background-color: #FEEEEC;
+  border-bottom: 1px solid #F5948D;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead tr th {
+  padding: 30px 40px;
+  font-size: 20px;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead tr th:first-child {
+  color: #DB6565;
+  padding-left: 63px;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table thead tr th:last-child {
+  color: #638CD7;
+  padding-right: 63px;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td {
+  width: 700px;
+  height: 92px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.clicked {
+  background-color: #FEEEEC;
+  color: #EF4C41;
+  font-weight: bold;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.prev_month, .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.next_month {
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.next_month.clicked {
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.impossible_day {
+  color: #ddd;
+  cursor: default;
+  position: relative;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.impossible_day::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td.impossible_day.clicked {
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td:first-child {
+  padding-left: 20px;
+  color: #ddd;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr td:last-child {
+  padding-right: 20px;
+  color: #ddd;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover td:nth-child(2),
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(3),
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(4),
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(5),
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(6) {
+  color: #F5948D;
+  position: relative;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover td:nth-child(2).impossible_day,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(3).impossible_day,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(4).impossible_day,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(5).impossible_day,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(6).impossible_day {
+  border: none;
+  color: #ddd;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover td:nth-child(2).impossible_day.clicked,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(3).impossible_day.clicked,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(4).impossible_day.clicked,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(5).impossible_day.clicked,
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover :nth-child(6).impossible_day.clicked {
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar table tbody tr:hover td.clicked {
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 40px;
+  padding-left: 7.428%;
+  border-top: 1px solid #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 5px;
+  margin-top: 2.825%;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info > div .circle {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info > div:first-child .circle {
+  border-color: #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .calendar .calendar_info > div:last-child .circle {
+  border-color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation {
+  height: 547px;
+  margin-bottom: 3.125%;
+  border-top: 1px solid #EF4C41;
+  border-bottom: 1px solid #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation h2 {
+  margin-bottom: 12.682%;
+  padding: 30px 0;
+  background-color: #FEEEEC;
+  border-bottom: 1px solid #F5948D;
+  font-size: 20px;
+  text-align: center;
+  color: #EF4C41;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation h2 em {
+  font-style: normal;
+  color: #343434;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form {
+  padding: 0 6.862%;
+  font-size: 20px;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 7.23%;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div label {
+  display: inline-block;
+  margin-right: 3.375%;
+  width: 107px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 60px;
+  background-color: #ECF8ED;
+  color: #3DB149;
+  font-weight: 600;
+  text-align: center;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div p, .subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div input {
+  width: 288px;
+  height: 40px;
+  border-radius: 60px;
+  background-color: #F5F5F5;
+  padding-left: 7.23%;
+  font-size: 16px;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div p {
+  display: inline-block;
+  line-height: 40px;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div input::-webkit-input-placeholder {
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div input::-moz-placeholder {
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div input:-ms-input-placeholder {
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div input::-ms-input-placeholder {
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form > div input::placeholder {
+  color: #989898;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 34px;
+  width: 190px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #EF4C41;
+  color: #fff;
+  font-size: 24px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form button.click {
+  -webkit-animation: btnClickEvent 1s;
+          animation: btnClickEvent 1s;
+}
+@-webkit-keyframes btnClickEvent {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes btnClickEvent {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.subpage_main_contents .inner .calendar_reservation_container .calendar_reservation_wrap .reservation .form button:hover {
+  background-color: #3DB149;
+}
+.subpage_main_contents .inner .prev_page_btn {
+  display: block;
+  width: 14%;
+  margin-top: 2%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  color: #989898;
+  font-size: 14px;
+}
+.subpage_main_contents .inner .prev_page_btn:hover {
+  text-decoration: underline;
+}
+.subpage_main_contents .reservation_message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  height: 20%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-box-shadow: 0 0 30px rgba(245, 148, 141, 0.3);
+          box-shadow: 0 0 30px rgba(245, 148, 141, 0.3);
+  border-radius: 20px;
+  visibility: hidden;
+  position: absolute;
+  left: 50%;
+  bottom: 28%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 100;
+  -webkit-transition: visibility 0.3s ease, -webkit-transform 0.3s ease;
+  transition: visibility 0.3s ease, -webkit-transform 0.3s ease;
+  transition: visibility 0.3s ease, transform 0.3s ease;
+  transition: visibility 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.subpage_main_contents .reservation_message button {
+  display: block;
+  margin-left: auto;
+  border: none;
+  opacity: 1;
+  background-color: transparent;
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+.subpage_main_contents .reservation_message button i {
+  color: #EF4C41;
+  font-size: 24px;
+}
+.subpage_main_contents .reservation_message button:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+.subpage_main_contents .reservation_message button.click {
+  opacity: 0;
+  -webkit-animation: btnClickEvent 1s;
+          animation: btnClickEvent 1s;
+}
+.subpage_main_contents .reservation_message .resercation_result {
+  margin: auto;
+  margin-top: 8%;
+  text-align: center;
+}
+.subpage_main_contents .reservation_message .resercation_result ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.subpage_main_contents .reservation_message .resercation_result ul li {
+  margin: 20px 0;
+  color: #DB6565;
+  font-size: 18px;
+  font-weight: bold;
+}
+.subpage_main_contents .reservation_message .resercation_result p b {
+  color: #DB6565;
+}
+.subpage_main_contents .reservation_message a {
+  display: none;
+  gap: 7px;
+  padding: 5px 10px;
+  margin-top: auto;
+  margin-bottom: 5%;
+  background-color: #F5948D;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.subpage_main_contents .reservation_message a:hover {
+  background-color: #FEEEEC;
+  border: 1px solid #F5948D;
+  color: #EF4C41;
+}
+.subpage_main_contents .reservation_message a.visible {
+  display: block;
+  opacity: 1;
+}
+.subpage_main_contents .reservation_message.visible {
+  visibility: visible;
+}
+
+/************************************* Footer *************************************/
+footer {
+  border-top: 3px solid #F5948D;
+  width: 100vw;
+  height: 320px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #343434;
+}
+footer .footer_info {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+footer .footer_info li {
+  position: relative;
+}
+footer .footer_info li::after {
+  content: "|";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: -8px;
+  color: #777;
+}
+footer .footer_info li:last-child::after {
+  display: none;
+}
+footer .footer_adress {
+  font-size: 14px;
+  margin: 53px 0;
+}
+footer .footer_adress > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .footer_adress > div span {
+  display: block;
+  padding: 2px 5px;
+  position: relative;
+}
+footer .footer_adress > div span::after {
+  content: "|";
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: -2px;
+  color: #777;
+}
+footer .footer_adress > div span:last-child::after {
+  display: none;
+}
+footer .footer_copy {
+  font-size: 14px;
+}
