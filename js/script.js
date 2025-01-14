@@ -1,6 +1,6 @@
 /*********** include Header 헤더를 로드하는 함수 ***********/
 function loadHeader() {
-  fetch('/html/header.html')
+  fetch('html/header.html')
     .then(response => response.text())
     .then(data => {
       document.querySelector('.header_include').innerHTML = data;
@@ -594,7 +594,7 @@ goToTop();
 topBtnScrollEvent();
 
 /*********** include Footer 푸터를 로드하는 함수 ***********/
-fetch('/html/footer.html')
+fetch('html/footer.html')
 .then(response => response.text())
 .then(data =>{
   document.querySelector('.footer_include').innerHTML = data;
