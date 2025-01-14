@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Import Local Scss Files */ /* Font Icon : Bootstrap Icons */
+/* Import Local Scss Files */
+/* Font Icon : Bootstrap Icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 /* Font */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
@@ -249,8 +250,6 @@ li {
 /************************************* Header *************************************/
 .header {
   z-index: 10;
-  position: absolute;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -263,64 +262,9 @@ li {
   width: 100vw;
   height: 100px;
   padding: 0 100px;
-  /* transition: 0.8s; */
-  /* 검색창 */
-}
-.header:hover {
-  background-color: #fff;
-}
-.header:hover .header_logo > a:nth-child(1) img {
-  display: none;
-}
-.header:hover .header_logo > a:nth-child(2) img {
-  display: block;
-}
-.header:hover .header_nav .nav_lists .nav_list > a {
-  color: #343434;
-}
-.header:hover .header_icon .header_icon_white li button > img {
-  -webkit-filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(20%) contrast(88%);
-          filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(20%) contrast(88%);
-}
-.header:hover .header_icon .header_icon_white li a > img {
-  -webkit-filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(20%) contrast(88%);
-          filter: invert(18%) sepia(0%) saturate(0%) hue-rotate(217deg) brightness(20%) contrast(88%);
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) {
-  position: relative;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text {
   position: absolute;
-  right: 0;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text input {
-  cursor: pointer;
-  background-color: transparent;
-  border: 2px solid #EF4C41;
-  width: 300px;
-  height: 35px;
-  border-radius: 30px;
-  padding: 10px;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text input::-webkit-input-placeholder {
-  width: 80%;
-  border: 1px solid green;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text input::-moz-placeholder {
-  width: 80%;
-  border: 1px solid green;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text input:-ms-input-placeholder {
-  width: 80%;
-  border: 1px solid green;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text input::-ms-input-placeholder {
-  width: 80%;
-  border: 1px solid green;
-}
-.header:hover .header_icon .header_icon_white li:nth-child(1) .search_text input::placeholder {
-  width: 80%;
-  border: 1px solid green;
+  background-color: #fff;
+  /* 검색창 */
 }
 .header .header_logo {
   display: -webkit-box;
@@ -333,9 +277,6 @@ li {
 }
 .header .header_logo > a img {
   width: 100%;
-}
-.header .header_logo > a:nth-child(2) img {
-  display: none;
 }
 .header .header_nav {
   /* display: none; */
@@ -351,6 +292,11 @@ li {
 .header .header_nav .nav_lists .nav_list {
   -ms-flex-line-pack: center;
       align-content: center;
+  /* &:hover{
+    .dropdown{
+      display: block;
+    }
+  } */
 }
 .header .header_nav .nav_lists .nav_list:nth-child(odd) .dropdown::before {
   border-color: #EF4C41;
@@ -366,14 +312,11 @@ li {
 .header .header_nav .nav_lists .nav_list:nth-child(3) .dropdown .inner .submenu ul li:nth-child(3), .header .header_nav .nav_lists .nav_list:nth-child(4) .dropdown .inner .submenu ul li:nth-child(3), .header .header_nav .nav_lists .nav_list:nth-child(6) .dropdown .inner .submenu ul li:nth-child(3) {
   visibility: hidden;
 }
-.header .header_nav .nav_lists .nav_list:hover .dropdown {
-  display: block;
-}
 .header .header_nav .nav_lists .nav_list > a {
   font-family: "pretendard", sans-serif;
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: #343434;
   text-decoration: none;
   display: block;
   padding: 30px 15px;
@@ -388,6 +331,7 @@ li {
   max-height: 0;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
+  z-index: 10;
 }
 .header .header_nav .nav_lists .nav_list .dropdown::before {
   content: "";

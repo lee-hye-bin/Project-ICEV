@@ -330,7 +330,8 @@ calendarBody.addEventListener('click', (e) => {
     e.target.tagName === 'TD' && 
     !e.target.classList.contains('impossible_day') &&
     !e.target.classList.contains('prev_month') &&
-    !e.target.classList.contains('next_month')
+    !e.target.classList.contains('next_month') &&
+    e.target.textContent.trim() !== "" 
   ) {
     clearClickedStyles(); // 기존 스타일 제거
 
@@ -348,7 +349,12 @@ calendarBody.addEventListener('click', (e) => {
       const cellDay = parseInt(cell.textContent, 10);
       const cellDate = new Date(today.getFullYear(), today.getMonth(), cellDay);
 
-      if (cellDate >= monday && cellDate <= friday) {
+      if(
+          cellDate >= monday &&
+          cellDate <= friday &&
+          !cell.classList.contains("prev_month") &&
+          !cell.classList.contains("next_month")
+        ) {
         cell.classList.add('clicked');
       }
     });

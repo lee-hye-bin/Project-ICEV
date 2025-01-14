@@ -468,7 +468,6 @@
   // Subpage_Main_Contents 
   .subpage_main_contents{
     margin-bottom: 11.918%;
-    /* 1214 수정 시작 */
     .inner{
       width: 90%;
       .tap_wrap{
@@ -593,7 +592,6 @@
       .prev_page_btn{
         width: 19.1%;
       }
-      /* 1213 수정끝 */
     }
     // reservation_massage
     .reservation_message{
@@ -606,7 +604,6 @@
         }
       }
     }
-    /* 1214 수정 끝 */
   }
 
   /************************************* Footer Slide Banner *************************************/
@@ -707,6 +704,48 @@
           }
         }
       }
+      .calendar_reservation_container{
+        .calendar-header{
+          .h2{
+            font-size: 22px;
+          }
+        }
+        .calendar_reservation_wrap{
+          gap: 70px;
+          flex-direction: column;
+          .reservation{
+            width: 100%;
+            height: 550px;
+            h2{
+              margin-bottom: 7.562%;
+            }
+            .form{
+              >div{
+                margin-bottom: 6%;
+                label{
+                  width: 130px;
+                  height: 40px;
+                  line-height: 40px;
+                }
+                p, input{
+                  width: 450px;
+                  height: 40px;
+                }
+                p{line-height: 40px;}
+              }
+              button{
+                width: 170px;
+                height: 50px;
+              }
+            }
+          }
+        }
+      }
+      .prev_page_btn {width: 26.1%;}
+    }
+    .reservation_message{
+      width: 53%;
+      height: 14%;
     }
   }
 
